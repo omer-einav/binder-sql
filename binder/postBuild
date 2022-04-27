@@ -1,6 +1,7 @@
 #!/bin/bash
 set -eux
 
+pip install jupyterlab_sql
 jupyter serverextension enable jupyterlab_sql --py --sys-prefix
 jupyter lab build
 
