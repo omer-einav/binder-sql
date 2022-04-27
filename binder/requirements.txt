@@ -1,0 +1,3 @@
+ipython-sql
+jupyterlab_sql
+jupyter_contrib_nbextensions

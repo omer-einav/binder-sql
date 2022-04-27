@@ -1,6 +1,10 @@
 #!/bin/bash
 set -eux
 
+jupyter serverextension enable jupyterlab_sql --py --sys-prefix
+jupyter lab build
+
+
 #Create a directory for the database files
 PGDATA=${PGDATA:-$CONDA_DIR/pgsql}
 if [ ! -d "$PGDATA" ]; then
