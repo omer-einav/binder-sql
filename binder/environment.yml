@@ -5,5 +5,5 @@ dependencies:
   - xeus-sql=0.1.5
   - soci-postgresql
   - soci-core
-  - postgresql<4
+  - postgresql<11
   - psycopg2
