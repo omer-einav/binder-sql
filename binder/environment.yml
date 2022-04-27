@@ -2,8 +2,8 @@ name: sql tutorial
 channels:
   - conda-forge
 dependencies:
-  - xeus-sql=0.1.5
-  - soci-postgresql
-  - soci-core
+#  - xeus-sql=0.1.5
+#  - soci-postgresql
+#  - soci-core
   - postgresql
   - psycopg2
