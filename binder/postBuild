@@ -2,4 +2,4 @@
 set -eux
 
 jupyter contrib nbextension install --user
-jupyter nbextension enable --py ipython-sql
+#jupyter nbextension enable --py ipython-sql
