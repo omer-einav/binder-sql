@@ -1,5 +1,0 @@
-#!/bin/bash
-set -eux
-
-jupyter contrib nbextension install --user
-#jupyter nbextension enable --py ipython-sql
