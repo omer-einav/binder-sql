@@ -44,5 +44,5 @@ RUN pip install --no-cache --upgrade pip && \
 RUN mkdir -p ${HOME}/.jupyter
 RUN cp binder/mariadb_config.json ${HOME}/.jupyter/
 
-RUN python setup.py develop
+RUN python3 -m pip install mariadb_kernel
 RUN python -m mariadb_kernel.install
